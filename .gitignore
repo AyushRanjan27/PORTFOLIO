@@ -1,0 +1,17 @@
+node_modules/
+dist/
+build/
+/.env
+.DS_Store
+.vscode/
+/.history/
+*.log
+npm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+/.idea/
+/.cache/
+coverage/
+*.tgz
+Thumbs.db
