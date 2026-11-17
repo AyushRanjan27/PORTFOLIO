@@ -14,16 +14,16 @@ export const portfolioData = {
       degree: "Bachelor of Technology (B.Tech.)",
       field: "Computer Science & Engineering",
       location: "Vadodara, Gujarat, India",
-      dates: "2022 - 2026 (Expected)",
+      dates: "2023 - 2027 (Expected)",
       details: "NAAC A++ Accredited University. Actively participating in hackathons, technical writing forums, and sports events. Specialized in Software Engineering, Full-Stack Web Development, and Applied Machine Learning."
     },
     {
       institution: "IIT Kharagpur (NPTEL Online Certification)",
       degree: "Specialized Coursework",
-      field: "Computer Networks And Internet Protocol",
+      field: "Introduction to Internet of Things",
       location: "Online",
-      dates: "Jan - Apr 2025 (12 Weeks)",
-      details: "Successfully completed a 12-week course funded by MoE, Government of India. Consolidated Score: 55% (Online Assignments: 25/25, Proctored Exam: 30/75). Credential Roll No: NPTEL25CS15S1159700085."
+      dates: "Jul - Oct 2026 (12 Weeks)",
+      details: "Successfully completed a 12-week course funded by MoE, Government of India. Consolidated Score: 77% (Online Assignments: 24.25/25, Proctored Exam: 52.5/75). Credential Roll No: NOC26CS161MANUAL0008971."
     }
   ],
   skills: {
@@ -36,19 +36,45 @@ export const portfolioData = {
   },
   projects: [
     {
-      id: "hostel-ml",
-      title: "Hostel Management System using ML",
-      category: "Machine Learning",
-      tag: "Machine Learning / ML",
-      description: "An intelligent hostel management portal integrating machine learning algorithms to optimize room allocation, track student records, and perform capacity forecasting.",
-      problem: "Manual hostel administration leads to highly inefficient room allocation, reservation conflicts, and a lack of predictive foresight for utility requirements.",
-      data: "Used historical student room selections, capacity logs, utility bills, and student academic/demographic profiles.",
-      analysis: "Applied regression and classification models in Python to predict seasonal demand and suggest room matchings based on compatibility.",
-      insight: "Identified peak reservation seasons and optimized student pairings using collaborative compatibility metrics.",
-      result: "Constructed an automated web-based management dashboard that allocates rooms dynamically, saving administrative overhead.",
-      techStack: ["JavaScript", "Python", "Machine Learning", "Express.js", "MongoDB", "HTML5", "CSS3"],
-      contribution: "Sole Developer. Coded the frontend forms, mapped the database schema, and modeled the allocation prediction parameters.",
-      github: "https://github.com/AyushRanjan27/Hostel-Management-System-Using-ML",
+      id: "apex-distro",
+      title: "ApexDistro Portal",
+      category: "Full Stack",
+      tag: "Full Stack",
+      date: "Aug 2026",
+      description: "A full-stack ERP/CRM platform that centralizes customer management, product management, inventory tracking, and sales challan operations for wholesale and distribution businesses.",
+      problem: "Wholesale and distribution teams need one connected system to manage customers, products, inventory, and sales documentation.",
+      result: "Built a centralized business-management portal for ERP and CRM workflows with inventory monitoring and sales challan management.",
+      techStack: ["React", "TypeScript", "Node.js", "Express.js", "MongoDB"],
+      contribution: "Sole Developer. Designed and implemented the application workflows, full-stack interface, and business-management features.",
+      github: "https://github.com/AyushRanjan27/ApexDistro-Portal",
+      live: "https://apex-distro-portal.vercel.app"
+    },
+    {
+      id: "hostelhub",
+      title: "HostelHub",
+      category: "Full Stack",
+      tag: "Full Stack",
+      date: "Apr 2026",
+      description: "A smart hostel management system with AI-based complaint classification and priority management for faster issue resolution.",
+      problem: "Hostel complaints are often recorded and handled manually, making it difficult to prioritize urgent issues and track resolutions.",
+      result: "Created a responsive hostel management web application that organizes complaints and uses AI-assisted classification and priority workflows.",
+      techStack: ["React", "JavaScript", "Node.js", "Express.js", "MongoDB", "Artificial Intelligence"],
+      contribution: "Sole Developer. Built the complaint-management experience and integrated hostel operations with an intelligent prioritization workflow.",
+      github: "https://github.com/AyushRanjan27/HostelHub",
+      live: "https://hostelhub-nkln.onrender.com"
+    },
+    {
+      id: "dreamwall",
+      title: "DREAMWALL",
+      category: "Full Stack",
+      tag: "Full Stack",
+      date: "Jul 2026",
+      description: "An AI-powered wallpaper generator that transforms natural-language prompts into visually engaging wallpapers.",
+      problem: "Creating tailored digital wallpapers typically requires design expertise and repeated manual editing.",
+      result: "Developed a full-stack prompt-based image generation experience that converts user ideas into downloadable wallpaper concepts.",
+      techStack: ["React", "JavaScript", "Node.js", "Express.js", "MongoDB", "Generative AI"],
+      contribution: "Sole Developer. Implemented the frontend prompt experience and application integration for AI-generated wallpaper output.",
+      github: "https://github.com/AyushRanjan27/DREAMWALL",
       live: ""
     },
     {
@@ -56,39 +82,28 @@ export const portfolioData = {
       title: "TRAVELOOP - Destination Discovery Portal",
       category: "Web Development",
       tag: "Web Development",
+      date: "May 2026",
       description: "A responsive, visually engaging travel discovery portal and vacation planner designed to help travelers discover popular destinations.",
       problem: "Traditional travel blogs are slow and unresponsive on mobile screens, hindering seamless trip navigation.",
       result: "Developed a modern responsive frontend utilizing semantic HTML5 and clean CSS layouts with animated destination cards and structured travel plan outlines.",
-      techStack: ["HTML5", "CSS3", "JavaScript", "Vite"],
-      contribution: "Sole Developer. Created the responsive page designs and custom smooth-scrolling animations.",
+      techStack: ["HTML5", "CSS3", "JavaScript", "Full-Stack Development"],
+      contribution: "Sole Developer. Created destination discovery, trip planning, budget planning, and a responsive travel experience.",
       github: "https://github.com/AyushRanjan27/TRAVELOOP",
       live: ""
     },
     {
       id: "globalbites",
       title: "GlobalBites - Recipe Platform",
-      category: "Web Development",
-      tag: "Web Development",
-      description: "An international food recipe discovery platform allowing users to search cuisines, view detailed culinary guides, and filter by cooking time.",
-      problem: "Finding verified recipe cards from diverse international culinary backgrounds in a single, fast portal is challenging.",
-      result: "Built a responsive recipe portal featuring dynamic card search, cuisine categories, step-by-step instructions, and ingredient checklists.",
-      techStack: ["JavaScript", "HTML5", "CSS3", "Vite"],
-      contribution: "Sole Developer. Implemented cuisine indexing, client search matching, and card layouts.",
+      category: "Full Stack",
+      tag: "Full Stack",
+      date: "Jun 2026",
+      description: "An AI-powered food and recipe discovery platform for personalized recipes, budget-friendly meal planning, global cuisine exploration, and nutritional insights.",
+      problem: "Users need more than recipe search: they need personalized, budget-aware meal ideas with useful nutrition context.",
+      result: "Built a full-stack recipe platform that combines food discovery, intelligent recommendations, meal planning, and nutritional guidance.",
+      techStack: ["React", "JavaScript", "Node.js", "Express.js", "MongoDB", "Generative AI"],
+      contribution: "Sole Developer. Implemented recipe discovery and personalization features across the full application.",
       github: "https://github.com/AyushRanjan27/GlobalBites",
-      live: ""
-    },
-    {
-      id: "netflix-clone",
-      title: "Netflix Landing Page Clone",
-      category: "Web Development",
-      tag: "Web Development",
-      description: "A high-fidelity landing page replica focusing on absolute pixel perfection, hover scaling states, and accordion layouts.",
-      problem: "Replicating premium, complex streaming dashboards with pure layout tags requires thorough CSS structure.",
-      result: "Created a replica of the primary landing page featuring fluid media queries, layout styling, and CSS keyframe banners.",
-      techStack: ["HTML5", "CSS3", "JavaScript"],
-      contribution: "Sole Developer. Replicated the exact margins, color values, and accordion interactions.",
-      github: "https://github.com/AyushRanjan27/Netflix_Clone",
-      live: ""
+      live: "https://global-bites-weld.vercel.app/"
     },
     {
       id: "tic-tac-toe",
@@ -119,6 +134,18 @@ export const portfolioData = {
   ],
   certifications: [
     {
+      id: "nptel-iot",
+      name: "Introduction to Internet of Things",
+      issuer: "NPTEL Online Certification (IIT Kharagpur)",
+      date: "Jul - Oct 2026",
+      category: "Development",
+      skills: ["Internet of Things", "IoT Protocols", "Embedded Systems", "Sensor Networks"],
+      score: "77%",
+      rollNumber: "NOC26CS161MANUAL0008971",
+      certificateUrl: "/NOC26CS161MANUAL0008971-1.pdf",
+      credentialUrl: ""
+    },
+    {
       id: "aws-foundations",
       name: "AWS Academy Graduate - Cloud Foundations",
       issuer: "AWS Academy",
@@ -137,17 +164,6 @@ export const portfolioData = {
       skills: ["Data Analytics Fundamentals", "Role of Data in AI/ML", "Data Career Options"],
       credentialUrl: ""
     },
-    {
-      id: "nptel-networks",
-      name: "Computer Networks And Internet Protocol",
-      issuer: "NPTEL Online Certification (IIT Kharagpur)",
-      date: "Jan - Apr 2025",
-      category: "Development",
-      skills: ["Routing Algorithms", "IP Addressing", "TCP/UDP Protocols", "Network Layers"],
-      score: "55%",
-      rollNumber: "NPTEL25CS15S1159700085",
-      credentialUrl: ""
-    }
   ],
   achievements: [
     {

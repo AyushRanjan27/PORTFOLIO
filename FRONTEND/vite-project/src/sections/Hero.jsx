@@ -29,7 +29,7 @@ export default function Hero() {
         </h2>
         
         <p className="hero-description">
-          Computer Science & Engineering student at Parul University. Certified in <strong>AWS Cloud Computing</strong>, <strong>Cisco Data Science</strong>, and <strong>NPTEL Network Protocols</strong>. I build clean full-stack web applications and conduct statistical data analysis to generate business insights and solve real-world problems.
+          Computer Science & Engineering student at Parul University. Certified in <strong>AWS Cloud Computing</strong>, <strong>Cisco Data Science</strong>, and <strong>NPTEL Introduction to Internet of Things</strong>. I build clean full-stack web applications and conduct statistical data analysis to generate business insights and solve real-world problems.
         </p>
         
         <div className="hero-actions">

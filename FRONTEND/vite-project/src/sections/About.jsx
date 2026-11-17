@@ -19,7 +19,7 @@ export default function About() {
             My core interest lies at the intersection of <strong>Software Engineering</strong> and <strong>Data Science</strong>. I enjoy writing clean, modular backend APIs and modeling relational/non-relational databases, as well as preprocessing complex datasets to construct machine learning classification pipelines.
           </p>
           <p>
-            Through my coursework and certifications (AWS Cloud Computing, Cisco Data Science, and NPTEL Computer Networks), I have built a strong theoretical foundation in networking protocols, distributed systems, database management, and cloud architecture, which I apply to hands-on projects.
+            Through my coursework and certifications (AWS Cloud Computing, Cisco Data Science, and NPTEL Introduction to Internet of Things), I have built a strong foundation in cloud systems, distributed applications, IoT concepts, database management, and data analytics, which I apply to hands-on projects.
           </p>
         </div>
         

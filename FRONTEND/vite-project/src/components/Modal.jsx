@@ -80,6 +80,18 @@ export default function Modal({ certificate, onClose }) {
           </div>
           
           <div style={{ display: 'flex', gap: '12px', width: '100%' }}>
+            {certificate.certificateUrl ? (
+              <a
+                href={certificate.certificateUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-primary"
+                style={{ flex: 1 }}
+              >
+                View Certificate <ExternalLink size={16} />
+              </a>
+            ) : null}
+
             {certificate.credentialUrl ? (
               <a
                 href={certificate.credentialUrl}
